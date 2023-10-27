@@ -1,0 +1,127 @@
+
+body {
+    padding: 0rem 11.5rem;
+    background-color: #f5f5f5;
+}
+
+.flex {
+    display: flex;
+    gap: 5rem;
+    justify-content: stretch;
+    align-items: center;
+    /* height: 100vh; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column-reverse; */
+     width:5rem; 
+}
+
+.flex .quest {
+    display: flex;
+    color: rgb(28, 28, 122);
+    font-size: xx-large;
+    font-weight: 700;
+    font-size: 2rem;
+    gap: 20rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.place {
+    display: flex;
+    gap: 5rem;
+    /* flex-direction: row; */
+    
+    /* background-color: red; */
+    /* width: 10rem;  */
+     /* flex: 0 0 auto;  */
+     margin-left: 15rem; 
+}
+ 
+    .box .blog {
+    margin-left: 5rem;
+    color: black;
+}  
+
+.flex .box {
+    color: rgb(44, 44, 65);
+    font-size: small;
+    margin: 20px;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    /* margin-bottom: 10rem; */
+}
+
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15rem;
+}
+
+/* .txt {
+    padding: 11rem 0rem 0rem 15rem;
+} */
+
+.grow {
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(17, 17, 138);
+}
+
+span{
+    color: rgb(71, 71, 224);
+    font-weight: 200;
+}
+
+/* input[type=button] {
+    display: flex;
+} */
+
+input[type=button] {
+    font-family: Helvetica;
+    /* /background-color: rgb(15, 80, 155);  */
+    border-radius: 2rem;
+    /* height: 5px; */
+    border: none ;
+    /* color: white; */
+    padding: 10.5px;
+     /* gap: 10rem;  */
+}
+
+.white {
+    width: 100px;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: Helvetica;
+  color: #5552e0;
+  background-color: rgb(146, 145, 145);
+  text-align: center;
+  
+  
+}
+
+.blue {
+width: 130px;
+background-color: rgb(15, 80, 155);
+color: white;
+font-family: Arial, Helvetica;
+font-weight: bolder;
+font-size: 10px;
+padding: 18px;
+text-align: center;
+}
+
+
+.image {
+    display: grid;
+   /margin-bottom: 60rem;
+   /* padding: 3rem 5rem 2rem 2rem ; */
+
+}
+
+ img {
+  height: 70%; 
+  /* place-content: center;
+  /* padding-right: 5rem; */
+  /* margin-bottom: 60rem;
+
+}  */
